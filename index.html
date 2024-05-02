@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./style.css">
+    <title>Самостійна робота №2.1</title>
+</head>
+
+<body>
+    <h1 class="title">Самостійна робота №2.1</h1>
+    <p class="subtitle">Виконала: студентка групи ІПЗ-21-301, <br>Кас'янова Поліна Євгеніївна</p>
+    <div class="examples">
+        <h2 class="name">1. CSS Кольори</h2>
+        <h3>1.1. CSS Background Color - Колір фону</h3>
+        <h3 style="background-color:DodgerBlue;">Hello World</h3>
+        <p style="background-color:Tomato;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
+            deleniti. Voluptate fugit quo quasi dignissimos delectus odio recusandae molestiae doloribus excepturi
+            quia ullam tempora adipisci consequuntur corrupti deleniti, exercitationem corporis.</p>
+        <h3>1.2. CSS Text Color - Колір тексту</h3>
+        <h1 style="color:Tomato;">Hello World</h1>
+        <p style="color:DodgerBlue;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nobis aut quis,
+            voluptatibus atque ratione beatae consectetur vero nesciunt, tempore inventore minus explicabo. Voluptatum
+            dolores ex magni voluptates similique vel?</p>
+        <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+        <h3>1.3. CSS Border Color - Колір межі</h3>
+        <h1 style="border:2px solid Tomato;">Hello World</h1>
+        <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+        <h1 style="border:2px solid Violet;">Hello World</h1>
+        <h3>1.4. CSS Значення кольору</h3>
+        <h1 style="background-color:rgb(255, 99, 71);">...</h1>
+        <h1 style="background-color:#ff6347;">...</h1>
+        <h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+        <h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+        <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+        <h2 class="name">2. CSS Фони</h2>
+        <h3>2.1. Opacity / Transparency - Непрозорість / Прозорість</h3>
+        <div class="ex_1 def">
+            <h1>opacity 0.1</h1>
+        </div>
+        <div class="ex_2 def">
+            <h1>opacity 0.3</h1>
+        </div>
+        <div class="ex_3 def">
+            <h1>opacity 0.6</h1>
+        </div>
+        <div class="def">
+            <h1>opacity 1 (за замовчуванням)</h1>
+        </div>
+        <h3>2.2. Прозорість з використанням RGBA</h3>
+        <div class="ex_4 default">
+            <h1>10% opacity</h1>
+        </div>
+        <div class="ex_5 default">
+            <h1>30% opacity</h1>
+        </div>
+        <div class="ex_6 default">
+            <h1>60% opacity</h1>
+        </div>
+        <div class="default">
+            <h1>За замовчуванням</h1>
+        </div>
+        <h3>2.3. CSS background-image</h3>
+        <div class="paper">Цей блок має зображення як тло!</div>
+        <h2 class="name">3. CSS Межі</h2>
+        <h3>3.1. Стиль CSS Межі</h3>
+        <p class="dotted">Крапкова межа.</p>
+        <p class="dashed">Пунктирна межа.</p>
+        <p class="solid">Суцільна межа.</p>
+        <p class="double">Подвійна межа.</p>
+        <p class="groove">Рифлена межа. Ефект залежить від значення кольору межі.</p>
+        <p class="ridge">Ребриста межа. Ефект залежить від значення кольору межі.</p>
+        <p class="inset">Вставна межа. Ефект залежить від значення кольору межі.</p>
+        <p class="outset">Випукла межа. Ефект залежить від значення кольору межі.</p>
+        <p class="none">Немає межі.</p>
+        <p class="hidden">Прихована межа.</p>
+        <p class="mix">Змішана межа.</p>
+        <h3>3.2. CSS Border Width - Ширина межі</h3>
+        <p class="ex_7">5px border-width</p>
+        <p class="ex_8">medium border-width</p>
+        <p class="ex_9">2px border-width</p>
+        <p class="ex_10">thick border-width</p>
+        <h3>3.3. CSS Колір межі</h3>
+        <p class="ex_11">Червона межа</p>
+        <p class="ex_12">Зелена межа</p>
+        <p class="ex_13">Синя межа</p>
+        <h3>3.4. CSS Border - Окремі сторони</h3>
+        <p class="ex_14">Різні стилі межі</p>
+        <h3>3.5. CSS Закруглені межі</h3>
+        <p class="ex_15">Звичайна межа</p>
+        <p class="ex_16">Закруглена межа</p>
+        <p class="ex_17">Більш закруглена межа</p>
+        <p class="ex_18">Ще більш закруглена межа</p>
+        <h2 class="name">4. CSS Поля</h2>
+        <h3>4.1. Margin - Окремі сторони</h3>
+        <div class="ex_19">Цей елемент div має верхнє поле 100px, праве поле 150px, нижнє поле 100px та ліве поле 80px.
+        </div>
+        <h3>4.2. Margin - Скорочена властивість</h3>
+        <div class="ex_20">Цей елемент div має верхнє поле 25px, праве поле 50px, нижнє поле 75px та ліве поле 100px.
+        </div>
+        <h3>4.3. Margin - Значення auto</h3>
+        <div class="ex_21">Цей div центруватиме по горизонталі, тому що в ньому margin: auto;</div>
+        <h2 class="name">5. CSS Внутрішній відступ</h2>
+        <h3>5.1. Padding - Окремі сторони</h3>
+        <div class="ex_22">Цей елемент div має верхній відступ 50 пікселів, правий відступ 30 пікселів, нижній відступ
+            50 пікселів та лівий відступ 80 пікселів.</div>
+        <h3>5.2. Padding - Скорочена властивість</h3>
+        <div class="ex_23">Цей елемент div має верхній відступ 25 пікселів, правий відступ 50 пікселів, нижній відступ
+            75 пікселів та лівий відступ 100 пікселів.</div>
+        <h3>5.3. Padding та Width</h3>
+        <div class="ex_24">Цей div має ширину 300 пікселів.</div>
+        <div class="ex_25">Ширина цього div складає 350 пікселів, хоча CSS він визначений як 300 пікселів.</div>
+        <h2 class="name">6. CSS Висота, ширина і максимальна ширина</h2>
+        <h3>6.1. CSS Значення height/width</h3>
+        <div class="ex_26">Цей елемент має висоту 100 пікселів і ширину 500 пікселів.</div>
+        <h3>6.2. Встановлення максимальної ширини - max-width</h3>
+        <div class="ex_27">Цей елемент має висоту 100 пікселів і максимальну ширину 500 пікселів.</div>
+        <h2 class="name">7. CSS Блочна модель</h2>
+        <h3>7.1. CSS Блочна модель</h3>
+        <div class="ex_28">Цей безглуздий текст є вмістом блоку. Ми додали відступ 50 пікселів, поле 20 пікселів та
+            зелений кордон 15 пікселів. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor у reprehenderit в voluptate velit esse cillum dolore
+            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</div>
+        <h3>7.2. Ширина і висота елемента</h3>
+        <img src="./img/klematis4_big.jpg" width="350" height="263" alt="Klematis">
+        <div class="ex_29">Зображення вище має ширину 350 пікселів. Загальна ширина цього елемента також становить 350
+            пікселів.</div>
+        <h2 class="name">8. CSS Іконки</h2>
+        <h3>8.1. Font Awesome Іконки</h3>
+        <i class="fas fa-cloud"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-car"></i>
+        <i class="fas fa-file"></i>
+        <i class="fas fa-bars"></i>
+        <h3>8.2. Google Іконки</h3>
+        <i class="material-icons">cloud</i>
+        <i class="material-icons">favorite</i>
+        <i class="material-icons">attachment</i>
+        <i class="material-icons">computer</i>
+        <i class="material-icons">traffic</i>
+        <h2 class="name">9. CSS Посилання</h2>
+        <h3>9.1. Стилізація посилань</h3>
+        <a href="./index.html" class="ex_30">Посилання</a>
+        <h3>9.2. Text Decoration - Оформлення тексту</h3>
+        <a href="./index.html" class="ex_31">Посилання</a>
+        <h3>9.3. Background Color - Колір фону</h3>
+        <a href="./index.html" class="ex_32">Посилання</a>
+        <h3>9.4. Кнопки-посилання</h3>
+        <a href="./index.html" class="ex_33">Посилання</a>
+        <h2 class="name">10. CSS Списки</h2>
+        <h3>10.1. Різні маркери списку</h3>
+        <ul class="a">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+        <ul class="b">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+        <ol class="c">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ol>
+        <ol class="d">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ol>
+        <h3>10.2. Зображення як маркер елемента списку</h3>
+        <ul class="ex_34">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+        <h3>10.3. Розташування маркерів елементів списку</h3>
+        <h2>list-style-position: outside (за замовчуванням):</h2>
+        <ul class="ex_35">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias cumque nostrum, recusandae modi,
+                excepturi vero tempora est neque culpa omnis harum, mollitia iusto quisquam aliquam deleniti assumenda
+                magnam non.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eveniet obcaecati recusandae voluptates
+                laborum ducimus veniam, perspiciatis quia quos nostrum, expedita fugit quaerat, eius praesentium
+                repellat numquam unde exercitationem est.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio, nostrum corrupti ab quam
+                deleniti eos provident laborum dolorum odit quisquam harum doloremque reiciendis iusto dignissimos a
+                praesentium totam deserunt.</li>
+        </ul>
+        <h2>list-style-position: inside:</h2>
+        <ul class="ex_36">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi obcaecati voluptatem, adipisci sunt
+                saepe nisi magnam ad similique nihil aspernatur alias inventore mollitia, nemo error quidem perspiciatis
+                dolores, nostrum facilis!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque natus, perferendis ipsam corrupti
+                molestias placeat libero harum vitae distinctio soluta optio quaerat possimus quos accusamus! Odio
+                deleniti ad saepe sint.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum soluta ratione maxime unde! Consectetur
+                fuga inventore impedit deleniti veritatis, recusandae cupiditate praesentium ducimus aut corporis
+                possimus quia. Ipsa, nisi animi?</li>
+        </ul>
+        <h3>10.4. Видалення налаштувань за замовчуванням</h3>
+        <p>Список за замовчуванням:</p>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+        <p>Видалені маркери, поля та відступи:</p>
+        <ul class="demo">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+        <h3>10.5. Список стилів з кольорами</h3>
+        <ol class="ex_37">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ol>
+        <ul class="ex_38">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+        <h2 class="name">11. CSS Таблиці</h2>
+        <h3>11.1. Межі таблиці</h3>
+        <table class="ex_39">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+            </tr>
+        </table>
+        <h3>11.2. Таблиця на всю ширину</h3>
+        <table class="ex_40">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+            </tr>
+        </table>
+        <h3>11.3. Згорнути межі таблиці</h3>
+        <table class="ex_41">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+            </tr>
+        </table>
+        <h3>11.4. Ширина та висота таблиці</h3>
+        <table class="ex_42">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>Swanson</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Cleveland</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+        </table>
+        <p></p>
+        <table class="ex_43">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>Swanson</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Cleveland</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+        </table>
+        <h3>11.5. Горизонтальне вирівнювання в таблиці</h3>
+        <table class="ex_44">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>Swanson</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Cleveland</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+        </table>
+        <h3>11.6. Вертикальне вирівнювання в таблиці</h3>
+        <table class="ex_45">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>Swanson</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Cleveland</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+        </table>
+        <h3>11.7. Відступи в таблиці - padding</h3>
+        <table class="ex_46">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>Swanson</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Cleveland</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+        </table>
+        <h3>11.8. Горизонтальні роздільники в таблиці</h3>
+        <table class="ex_47">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>Swanson</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Cleveland</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+        </table>
+        <h3>11.9. Виділення рядків таблиці при наведенні</h3>
+        <table class="ex_48">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>Swanson</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Cleveland</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+        </table>
+        <h3>11.10. Смугаста таблиця</h3>
+        <table class="ex_49">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>Swanson</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Cleveland</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+        </table>
+        <h3>11.11. Колір таблиці</h3>
+        <table class="ex_50">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>Swanson</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Cleveland</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+        </table>
+        <h3>11.12. Адаптивна таблиця</h3>
+        <div style="overflow-x:auto;">
+            <table class="ex_51">
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Savings</th>
+                </tr>
+                <tr>
+                    <td>Peter</td>
+                    <td>Griffin</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Lois</td>
+                    <td>Griffin</td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td>Joe</td>
+                    <td>Swanson</td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td>Cleveland</td>
+                    <td>Brown</td>
+                    <td>$250</td>
+                </tr>
+            </table>
+        </div>
+        <h1 class="title">CSS Продвинутий</h1>
+        <h2 class="name">1. CSS Закруглені кути</h2>
+        <h3>1.1. CSS властивість border-radius</h3>
+        <p id="rcorners1">Закруглені кути!</p>
+        <p id="rcorners2">Закруглені кути!</p>
+        <p id="rcorners3">Закруглені кути!</p>
+        <h3>1.2. CSS border-radius - Вкажіть кожен кут</h3>
+        <p>Чотири значення - border-radius: 15px 50px 30px 5px:</p>
+        <p id="rcorners4"></p>
+        <p>Три значення - border-radius: 15px 50px 30px:</p>
+        <p id="rcorners5"></p>
+        <p>Два значення - border-radius: 15px 50px:</p>
+        <p id="rcorners6"></p>
+        <p>Одне значення - border-radius: 15px:</p>
+        <p id="rcorners7"></p>
+        <h2 class="name">2. CSS Анімації</h2>
+        <h3>2.1. Правило @keyframes (ключові кадри)</h3>
+        <div class="ex_52"></div>
+        <h3>2.2. Затримка анімації</h3>
+        <div class="ex_53"></div>
+        <h3>2.3. Встановіть, скільки разів анімація має запускатися</h3>
+        <div class="ex_54"></div>
+        <h3>2.4. Запустіть анімацію в зворотньому напрямку або альтернативних циклах</h3>
+        <div class="ex_55"></div>
+        <h3>2.5. Вкажіть криву швидкості анімації</h3>
+        <div class="ex_56" id="div1">linear</div>
+        <div class="ex_56" id="div2">ease</div>
+        <div class="ex_56" id="div3">ease-in</div>
+        <div class="ex_56" id="div4">ease-out</div>
+        <div class="ex_56" id="div5">ease-in-out</div>
+        <h2 class="name">2. CSS Підказка</h2>
+        <h3>2.1. Основна (базова) підказка</h3>
+        <div class="tooltip1">Наведіть на мене
+            <span class="tooltiptext1">Текст підказки</span>
+        </div>
+        <h3>2.2. Позиціонування виринаючих підказок</h3>
+        <div style="margin-left: 120px;">
+            <div class="tooltip2">Наведіть на мене
+                <span class="tooltiptext2">Текст підказки</span>
+            </div>
+            <p></p>
+            <div class="tooltip3">Наведіть на мене
+                <span class="tooltiptext3">Текст підказки</span>
+            </div>
+        </div>
+        <h3>2.3. Підказка зі стрілкою</h3>
+        <div class="tooltip4">Наведіть на мене
+            <span class="tooltiptext4">Текст підказки</span>
+        </div>
+        <h3>2.4. Виринаючі підказки (анімація)</h3>
+        <div class="tooltip5">Наведіть на мене
+            <span class="tooltiptext5">Текст підказки</span>
+        </div>
+        <h2 class="name">3. CSS Кнопки</h2>
+        <h3>3.1. Основні стилі кнопок</h3>
+        <button>Кнопка за замовчуванням</button>
+        <a href="#" class="button">Кнопка посилання</a>
+        <button class="button">Кнопка</button>
+        <input type="button" class="button" value="Кнопка введення">
+        <h3>3.2. Кольори кнопок</h3>
+        <button class="button">Зелена</button>
+        <button class="button button2">Синя</button>
+        <button class="button button3">Червона</button>
+        <button class="button button4">Сіра</button>
+        <button class="button button5">Чорна</button>
+        <h3>3.3. Розмір кнопок</h3>
+        <button class="button btn1">10px</button>
+        <button class="button btn2">12px</button>
+        <button class="button btn3">16px</button>
+        <button class="button btn4">20px</button>
+        <button class="button btn5">24px</button>
+        <h3>3.4. Округлі кнопки</h3>
+        <button class="button btn6">2px</button>
+        <button class="button btn7">4px</button>
+        <button class="button btn8">8px</button>
+        <button class="button btn9">12px</button>
+        <button class="button btn10">50%</button>
+        <h3>3.5. Кольорові межі кнопки</h3>
+        <button class="button btn11">Green</button>
+        <button class="button btn12">Blue</button>
+        <button class="button btn13">Red</button>
+        <button class="button btn14">Gray</button>
+        <button class="button btn15">Black</button>
+        <h3>3.6. Кнопки при наведенні миші</h3>
+        <button class="button btn16">Green</button>
+        <button class="button btn17">Blue</button>
+        <button class="button btn18">Red</button>
+        <button class="button btn19">Gray</button>
+        <button class="button btn20">Black</button>
+        <h3>3.7. Тінь кнопок</h3>
+        <button class="button button21">Кнопка з тінню</button>
+        <button class="button button22">Тінь при наведені</button>
+        <h3>3.8. Відключені кнопки</h3>
+        <button class="button">Звичайна кнопка</button>
+        <button class="button disabled">Відключена кнопка</button>
+        <h3>3.9. Ширина кнопок</h3>
+        <button class="button button23">250px</button><br>
+        <button class="button button24">50%</button><br>
+        <button class="button button25">100%</button>
+        <h3>3.10. Групи кнопок</h3>
+        <div class="btn-gr">
+            <button class="btn-line">Кнопка</button>
+            <button class="btn-line">Кнопка</button>
+            <button class="btn-line">Кнопка</button>
+            <button class="btn-line">Кнопка</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h3>3.11. Група кнопок з межами</h3>
+        <div class="btn-gr-bor">
+            <button class="btn-bor">Кнопка</button>
+            <button class="btn-bor">Кнопка</button>
+            <button class="btn-bor">Кнопка</button>
+            <button class="btn-bor">Кнопка</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h3>3.12. Вертикальна група кнопок</h3>
+        <div class="btn-group2">
+            <button class="button26">Кнопка</button>
+            <button class="button26">Кнопка</button>
+            <button class="button26">Кнопка</button>
+            <button class="button26">Кнопка</button>
+        </div>
+        <h3>3.13. Анімовані кнопки</h3>
+        <button class="button27" style="vertical-align:middle"><span>Hover</span></button>
+        <h2 class="name">4. CSS Пагінація</h2>
+        <h3>4.1. Проста нумерація вебсторінок</h3>
+        <div class="pagination">
+            <a href="#" class="pag-a">«</a>
+            <a href="#" class="pag-a">1</a>
+            <a href="#" class="pag-a">2</a>
+            <a href="#" class="pag-a">3</a>
+            <a href="#" class="pag-a">4</a>
+            <a href="#" class="pag-a">5</a>
+            <a href="#" class="pag-a">6</a>
+            <a href="#" class="pag-a">»</a>
+        </div>
+        <h3>4.2. Активна і при наведенні курсору нумерація сторінок</h3>
+        <div class="pagination">
+            <a href="#" class="pag-a">«</a>
+            <a href="#" class="pag-a">1</a>
+            <a href="#" class="pag-a pag-active">2</a>
+            <a href="#" class="pag-a">3</a>
+            <a href="#" class="pag-a">4</a>
+            <a href="#" class="pag-a">5</a>
+            <a href="#" class="pag-a">6</a>
+            <a href="#" class="pag-a">»</a>
+        </div>
+        <h3>4.3. Округлі активні та при наведенні курсору кнопки</h3>
+        <div class="pagination">
+            <a href="#" class="pag-a pag-a2">«</a>
+            <a href="#" class="pag-a pag-a2">1</a>
+            <a href="#" class="pag-a pag-a2 pag-active2">2</a>
+            <a href="#" class="pag-a pag-a2">3</a>
+            <a href="#" class="pag-a pag-a2">4</a>
+            <a href="#" class="pag-a pag-a2">5</a>
+            <a href="#" class="pag-a pag-a2">6</a>
+            <a href="#" class="pag-a pag-a2">»</a>
+        </div>
+
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/26e3ee569a.js"></script>
+</body>
+
+</html>
