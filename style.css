@@ -1158,7 +1158,7 @@ ul.demo {
   right: 0;
 }
 
-.pagination {
+.pag- {
   display: inline-block;
 }
 
@@ -1182,4 +1182,376 @@ ul.demo {
 .pag-a2:hover:not(.pag-active2) {
   background-color: #ddd;
   border-radius: 5px;
+}
+
+.pag-a3 {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pag-active3 {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pag-a3:hover:not(.pag-active3) {
+  background-color: #ddd;
+}
+
+.pag-a4 {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+
+.pag-active4 {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.pagination .pag-a4:hover:not(.pag-active4) {
+  background-color: #ddd;
+}
+
+.pag-a5 {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.pag-active5 {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.pagination .pag-a5:hover:not(.pag-active5) {
+  background-color: #ddd;
+}
+
+.pagination .pag-a5:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination .pag-a5:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.pag-a6 {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pag-active6 {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.pagination .pag-a6:hover:not(.pag-active6) {
+  background-color: #ddd;
+}
+
+.pag-a7 {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  font-size: 22px;
+}
+
+.pag-active7 {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.pagination .pag-a7:hover:not(.pag-active7) {
+  background-color: #ddd;
+}
+
+.newspaper1 {
+  column-count: 3;
+}
+
+.newspaper2 {
+  column-count: 3;
+  column-gap: 150px;
+}
+
+.newspaper3 {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+}
+
+.newspaper4 {
+  column-count: 3;
+  column-width: 100px;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropbtn2 {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown2:hover .dropbtn2 {
+  background-color: #3e8e41;
+}
+
+.dropbtn3 {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content3 a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown3:hover .dropdown-content3 {
+  display: block;
+}
+
+.dropdown3:hover .dropbtn3 {
+  background-color: #3e8e41;
+}
+
+div.ex57 {
+  background-color: lightgreen;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+div.ex58 {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+div.ex59 {
+  color: blue;
+  border: 10px solid currentcolor;
+  padding: 15px;
+}
+
+div.ex60 {
+  background-color: currentcolor;
+  padding: 15px;
+}
+
+div.ex60 p {
+  color: white;
+}
+
+div.ex61 {
+  box-shadow: 0px 0px 15px currentcolor;
+  border: 5px solid currentcolor;
+  padding: 15px;
+}
+
+.ex63 {
+  text-shadow: 2px 2px red;
+}
+
+.ex64 {
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+.ex65 {
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.ex66 {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: yellow;
+  box-shadow: 10px 10px;
+}
+
+.ex67 {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: yellow;
+  box-shadow: 10px 10px grey;
+}
+
+.ex68 {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: yellow;
+  box-shadow: 10px 10px 5px grey;
+}
+
+div.card1 {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.header1 {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+div.container1 {
+  padding: 10px;
+}
+
+div.polaroid2 {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.container2 {
+  padding: 10px;
+}
+
+.ex69 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s; /* Для Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+
+.ex69:hover {
+  width: 300px;
+}
+
+.ex70 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 4s;
+}
+
+.ex70:hover {
+  width: 300px;
+  height: 300px;
+}
+
+.ex71 {
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid #000;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.ex72 {
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ex73 {
+  width: 11em;
+  border: 1px solid #000;
+  word-wrap: break-word;
 }
